@@ -1,22 +1,23 @@
-body {text-align: center;
-	font-family: Tahoma;
-	margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 500px;
-    margin-left: 250px;
-}
-    
-
-ul {text-align: center;
-	font-weight: bold;
-	list-style-type: none;
-}
-
 html { 
-  background: url(https://wallpaperscraft.com/image/landscape_tree_lonely_snow_winter_empty_cold_48170_2560x1440.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-size: 85%;
+    background: url(https://wallpaperscraft.com/image/landscape_tree_lonely_snow_winter_empty_cold_48170_2560x1440.jpg) no-repeat center center fixed; -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 85%;
 }
+
+    body {
+        font-family: Tahoma;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 500px;
+        margin-left: 250px;
+    }
+    
+        ul {
+            font-weight: bold;
+            list-style-type: none;
+            text-align: center;
+        }
+
