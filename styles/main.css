@@ -39,10 +39,6 @@ header {
                 color: white;
             }
 
-.row {
-
-}
-
-.col {
-    float: left;
+p, h3 {
+    margin: 10px 15px 0 15px;
 }
