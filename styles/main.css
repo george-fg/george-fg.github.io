@@ -1,3 +1,4 @@
+/*<----------------------------Site Wide CSS----------------------------->*/
 html {
   background-color: #f7f7f7;
 }
@@ -24,6 +25,22 @@ html {
       margin: 1px;
     }
 
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer.copyright.six.column {
+  width: 50%;
+}
+
+.footer.links.six.column {
+  margin-left: 0px;
+  width: 50%;
+}
+/*<-------------------------------end---------------------------------->*/
+
+/* <------------------------------Homepage CSS------------------------->*/
 .homepage.blog.intro.seven.column {
     width: 50%;
     margin-top: 10px;
@@ -47,19 +64,18 @@ html {
   -webkit-border-radius:5px;
   -khtml-border-radius:5px;
   text-align: center;
-
 }
+/*<-------------------------------end---------------------------------->*/
 
-.footer {
-  text-align: center;
-  margin-top: 50px;
+/*<-------------------------------Blog Template CSS---------------------------------->*/
+.blog.post.twelve.column {
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 10px;
+  border:1px solid #999999;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  -khtml-border-radius:5px;
 }
-
-.footer.copyright.six.column {
-  width: 50%;
-}
-
-.footer.links.six.column {
-  margin-left: 0px;
-  width: 50%;
-}
+/*<-------------------------------end---------------------------------->*/
