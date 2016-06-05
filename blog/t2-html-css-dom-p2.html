@@ -1,64 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Technical Blog Part 2</title>
-<link href="../styles/main.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title>Technical Blog Part 2</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <!--
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/skeleton.css">
+  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../styles/main.css">
 </head>
-
 <body>
+  <div class="container">
 
-  <header>
-    <nav>
-      <h1>Technical Blog Part 2</h1>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="c1-reflection-blog.html">Reflections</a></li>
-        <li><a href="c1-time-and-habits-blog.html">Time and Habits</a></li>
-        <li><a href="t2-html-css-dom-p1.html">Technical Blog Part 1</a></li>
-        <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="header">
+      <div class="row">
+        <div class="header two column">
+          <h3>Coding the Mind</h3>
+        </div>
 
-  <h3>What is grid based design?</h3>
+        <div class="header ten column">
+          <a class="header button" href="../index.html">Home</a>
+          <a class="header button" href="../other/about-me.html">About Me</a>
+          <a class="header button" href="../other/portfolio.html">Portfolio</a>
+          <a class="header button" href="blog-archive.html">Blog Archive</a>
+          <a class="header button" href="../other/contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
 
-  <p>
-    <a href="http://imgur.com/NKO01zw"><img src="http://i.imgur.com/NKO01zw.jpg" title="source: imgur.com" alt="grid based design" /></a>
-    <br><strong>Grid based design</strong> is a way in which web developers can more easily plan and create a webpage’s layout. Typically they create a grid that covers the entire page, made up of rows and columns. 12 columns per row is used, as 12 is the lowest number that can be divided by 2, 3 and 4. Once they have created this intersecting grid, they can put html content such as images or paragraphs into these intersecting grid squares.
-  </p>
-  <br>
+    <div class="blog template main content">
+      <div class= "row">
+        <div class= "blog post tweleve column">
+          <br>
+          <h4>Phase 0 Week 2 - Technical Blog Part 2</h4>
+          <h5>What is grid based design?</h3>
+          <p>
+            <img src="http://i.imgur.com/NKO01zw.jpg" title="source: imgur.com" alt="grid based design">
+            <br>
+            <br>
+            <strong>Grid based design</strong> is a way in which web developers can more easily plan and create a webpage’s layout. Typically they create a grid that covers the entire page, made up of rows and columns. 12 columns per row is used, as 12 is the lowest number that can be divided by 2, 3 and 4. Once they have created this intersecting grid, they can put html content such as images or paragraphs into these intersecting grid squares.
+          </p>
+          <h5>Whats all the hype about responsive webpages?</h3>
+          <p>
+            Having <strong>responsive webpage design</strong> is important as we have multiple screen sizes on different devices, such as tablets and smartphones. A good developer understands this and will make sure her webpage accommodates these different screen sizes. For example, when the page is being viewed below 300px, the layout will change. (This would be useful for smartphones!)
+          </p>
+          <h5>What is semantic structure?</h3>
+          <p>
+            <strong>Semantic structure</strong> refers to the <em>semantic tags</em>, and the order they are placed in. For example, we want the header tag at the top, followed usually by the nav, then the body, and so on. Good use of semantic structure allows both browsers and other programmers to more easily arrange and understand your code.
+          </p>
+      </div>
 
-  <h3>Whats all the hype about responsive webpages?</h3>
+    <div id="footer">
+      <div class="row">
+        <div class="footer copyright six column">
+          <p>
+            <strong>Copyright George Green 2016.</strong>
+          </p>
+        </div>
 
-  <p>
-    Having <strong>responsive webpage design</strong> is important as we have multiple screen sizes on different devices, such as tablets and smartphones. A good developer understands this and will make sure her webpage accommodates these different screen sizes. For example, when the page is being viewed below 300px, the layout will change. (This would be useful for smartphones!)
-  </p>
-  <br>
+        <div class="footer links six column">
+          <ul>
+            <strong>
+            <a href="../other/about-me.html">About me</a>
+            <a href="../other/portfolio.html">Portfolio</a>
+            <a href="blog-archive.html">Blog Archive</a>
+            <a href="../other/contact.html">Contact</a>
+            </strong>
+          </ul>
+        </div>
 
-  <h3>What is semantic structure?</h3>
-
-  <p>
-    <strong>Semantic structure</strong> refers to the <em>semantic tags</em>, and the order they are placed in. For example, we want the header tag at the top, followed usually by the nav, then the body, and so on. Good use of semantic structure allows both browsers and other programmers to more easily arrange and understand your code.
-  </p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

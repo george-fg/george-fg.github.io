@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Technical Blog Part 1</title>
-        <link href="../styles/main.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Technical Blog Part 1</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <!--
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/skeleton.css">
+  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <div class="container">
 
-    <body>
+    <div class="header">
+      <div class="row">
+        <div class="header two column">
+          <h3>Coding the Mind</h3>
+        </div>
 
-        <header>
-            <nav>
-                <h1>Technical Blog Part 1</h1>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="c1-reflection-blog.html">Reflections</a></li>
-                    <li><a href="c1-time-and-habits-blog.html">Time and Habits</a></li>
-                    <li><a href="t2-html-css-dom-p2.html">Technical Blog Part 2</a></li>
-                    <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="header ten column">
+          <a class="header button" href="../index.html">Home</a>
+          <a class="header button" href="../other/about-me.html">About Me</a>
+          <a class="header button" href="../other/portfolio.html">Portfolio</a>
+          <a class="header button" href="blog-archive.html">Blog Archive</a>
+          <a class="header button" href="../other/contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
 
-        <h3>How the DOM, HTML, CSS, and JavaScript work together
-        </h3>
-
-        <p>
+    <div class="blog template main content">
+      <div class= "row">
+        <div class= "blog post tweleve column">
+          <br>
+          <h4>Phase 0 Week 2 - Technical Blog Part 1</h4>
+          <h5>How the DOM, HTML, CSS, and JavaScript work together</h5>
+          <p>
             A good way of explaining this is through an analogy of the human body.
             <br>
             <br>
@@ -41,35 +56,38 @@
             Bringing this all together, we get the <strong>Document Object Model</strong>, or <strong>DOM</strong> for short. The DOM is created when a web browser pulls together the information from the trio above, and displays that information on a webpage. In this way, the DOM is like a person, complete and complex.
             <br>
             <br>
-            <a href="http://imgur.com/5u3yJ0U"><img src="http://i.imgur.com/5u3yJ0U.jpg" title="Analogy" alt="Ironman/arm" /></a>
-        </p>
-        <br>
-
-        <h3>Boxifying Design and the Box Model</h3>
-
-        <p>
+            <img src="http://i.imgur.com/5u3yJ0U.jpg" title="Analogy" alt="Ironman/arm">
+          </p>
+          <h5>Boxifying Design and the Box Model</h5>
+          <p>
             <strong>Boxifying design</strong> is a way in which a web developer can think about elements on his or her webpage. All elements in HTML are essentially boxes - understanding this can make development a lot easier because square or rectangular boxes are simpler to adjust and plan for.
             <strong>The box model</strong> is the entirety of an element. The model includes properties such as padding, margins, and actual content.
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </p>
+          </p>
+      </div>
 
+    <div id="footer">
+      <div class="row">
+        <div class="footer copyright six column">
+          <p>
+            <strong>Copyright George Green 2016.</strong>
+          </p>
+        </div>
 
-    </body>
+        <div class="footer links six column">
+          <ul>
+            <strong>
+            <a href="../other/about-me.html">About me</a>
+            <a href="../other/portfolio.html">Portfolio</a>
+            <a href="blog-archive.html">Blog Archive</a>
+            <a href="../other/contact.html">Contact</a>
+            </strong>
+          </ul>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
