@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Technical Blog Part 5</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <!--
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/skeleton.css">
+  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="row">
+        <div class="header two column">
+          <h3>Coding the Mind</h3>
+        </div>
+
+        <div class="header ten column">
+          <a class="header button" href="../index.html">Home</a>
+          <a class="header button" href="../other/about-me.html">About Me</a>
+          <a class="header button" href="../other/portfolio.html">Portfolio</a>
+          <a class="header button" href="blog-archive.html">Blog Archive</a>
+          <a class="header button" href="../other/contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image">
+      <div class="row">
+        <div class="image twelve column">
+          <img src="http://i.imgur.com/Dy6UfpO.jpg" alt="JavaScript Code"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog template main content">
+      <div class= "row">
+        <div class= "blog post twelve column">
+          <h4>Phase 0 Week 5 Technical Blog Part 5</h4>
+          <h4>Problem Solving</h4>
+          <h5>My response to a recent problem.</h5>
+          <p>
+            <strong>What was the problem?</strong>
+            <br>
+            Earlier in the course, I was struggling with CSS to style grid formations on my website. It was becoming a huge tizzy for me. I didn’t know where to start, and I could feel myself getting upset.
+            <br>
+            <br>
+            <strong>Problem solving techniques I used:</strong>
+            <br>
+            I initially did some grounding (mindfulness) to calm myself down. After this, I looked at some of my fellow cohort’s websites through developer tools. I also used Google extensively. With trial and error, I eventually got the ball rolling to the point where I was starting to enjoy myself.
+            <br>
+            <br>
+            <strong> How I felt throughout the process:</strong>
+            <br>
+            Stressed at the start – I was comparing myself to others, and actively putting myself down. Saying, “I cannot do this, I don’t have the capacity,” etc.
+            <br>
+            When I started to ground, I was able to calm my body. This helped me think clearly and move forward. The rest came eventually, kind of like a snowball. It started slowly gathering speed, until my mind was whooshing along.
+            <br>
+            <br>
+            <strong>What I learned:</strong>
+            <br>
+            I should try to watch my anxiety levels more at physiological level. I also need to watch my thoughts, and actively note them when they come up during the task. I also need to continue using the Pomodoro technique, as it has proved immensely helpful over the last couple of weeks.
+          </p>
+          <p>
+            <h5>Reflect on how confident you feel using problem solving techniques and processes for programming.</h5>
+            <strong>Pseudocoding –</strong> I have not had to use this yet, though it is definitely in the back of my mind as a tool to use. Maybe later this week?
+            <br>
+            <br>
+            <strong>Trying something –</strong> yep, definitely done this a few times. Trial and error. More often than not I get an error message back, but for something I think is really close; it works well.
+            <br>
+            <br>
+            <strong>Rubber ducky method –</strong> I haven’t done this with a rubber ducky per say, but I have certainly practiced speaking aloud. I kind of do this automatically. The other thing I have been doing is explaining some concepts to my girlfriend, which can also help. Speaking aloud helps to clarify what I am thinking.
+            <br>
+            <br>
+            <strong>Reading error messages –</strong> done, although understanding these error messages is difficult at times.
+            <br>
+            <strong>Console.logging –</strong> done for some Codecademy exercises, always helpful to see your output.
+            <br>
+            <br>
+            <strong>Googling –</strong> lots of this! This is my go-to method for problem solving on broad topics.
+            <br>
+            <br>
+            <strong>Asking your peers for help –</strong> I have asked my peers a fair bit for help so far. We have some great people in our cohort, which makes getting good answers really easy.
+            <br>
+            <br>
+            <strong>Asking coaches for help –</strong> I haven’t had to tag a coach yet. Maybe soon though.
+            <br>
+            <br>
+            <strong>Improving your process with reflection –</strong> I need to do more of this, especially after a difficult task. Sometimes I just want something to be over, so I end up rushing through it. Some reflection could slow me down and consolidate my learning.
+          </p>
+          <h5>Explain what the following functions do.</h5>
+          <p>
+            <strong>.map()</strong>
+            <br>
+            The .map() function allows you to take an array and copy it, but new characteristics.
+            <br>
+            For example, the following code takes an array of numbers and creates a new array containing the square roots of the numbers in the first array.
+            <br>
+            <br>
+            <em>var numbers = [1, 4, 9]; var roots = numbers<strong>.map</strong>(Math.sqrt); <strong>// roots is now [1, 2, 3], numbers is still [1, 4, 9]</strong></em>
+            <br>
+            <br>
+            <strong>.filter()</strong>
+            <br>
+            The .filter() function allows you to create a new array out of a previous one, but only with desired elements. It “filters” out elements that are unwanted. It does this when you put in certain values when the function is called. These values will either be the wanted or unwanted elements in the new array.
+            <br>
+            The following example uses filter() to create a filtered array that has all elements with values less than 10 removed.
+            <br>
+            <br>
+            <em>function isBigEnough(value) {
+            <br>
+            return value >= 10;
+            <br>
+            }
+            <br>
+            var filtered = [12, 5, 8, 130, 44]<strong>.filter</strong>(isBigEnough); <strong>// filtered is [12, 130, 44]</strong></em>
+            <br>
+            <br>
+            <strong>.reduce()</strong>
+            <br>
+            The .reduce() function will take an array and reduce it to a certain result, depending on the value(s) used at the time of calling.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="row">
+        <div class="footer copyright six column">
+          <p>
+            <strong>Copyright George Green 2016</strong>
+          </p>
+        </div>
+
+        <div class="footer links six column">
+          <a href="../other/about-me.html">About Me</a>
+          <a href="../other/portfolio.html">Portfolio</a>
+          <a href="blog-archive.html">Blog Archive</a>
+          <a href="../other/contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
